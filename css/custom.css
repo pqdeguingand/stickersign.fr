@@ -1,0 +1,31 @@
+body {
+    position: relative;
+    height: 100%;
+    font-size: 17px;
+}
+.bg-primary {
+    background-color: #f0811b;
+}
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+.jumbotron {
+    background-color: transparent;
+}
+a.no-style {
+    text-decoration: none;
+    color: inherit;
+}
+.bottom-buffer {
+  margin-bottom: 25px;
+}
+.smaller-text {
+  font-size: 16px;
+}
+.no-margin-left {
+  margin-left: -15px;
+}
